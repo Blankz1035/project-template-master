@@ -1,0 +1,115 @@
+
+
+
+// Carlow Kilkenny
+
+CREATE (z:Candidates  {name:"John Paul Phelan", Age: "37", Gender: "Male", Occupation: "TD", Constituency: "Carlow-Kilkenny", Party: " " , Elected: "Yes"}),
+(z1:Candidates  {name:"John McGuinness", Age: "60", Gender: "Male", Occupation: "TD", Constituency: "Carlow-Kilkenny", Party: "Fianna Fáil", Elected: "Yes"}),
+(z2:Candidates  {name:"Kathleen Funchion", Age: "34", Gender: "Female", Occupation : "Councillor and SIPTU workers' rights advocate", Constituency : "Carlow-Kilkenny", Party : "Sinn Fein", Elected : "Yes"}), 
+(z3:Candidates  {name:"Bobby Aylward", Age : "60", Gender : "Male", Occupation : "TD", Constituency : "Carlow-Kilkenny", Party : "Fianna Fail", Elected : "Yes"}), 
+(z4:Candidates  {name:"Pat Deering", Age : "48", Gender : "Male", Occupation : "TD", Constituency : "Carlow-Kilkenny", Party : "Fine Gael", Elected : "Yes"}), 
+(z5:Candidates  {name:"Jennifer Murnane-O'Connor", Age : "49", Gender : "Male", Occupation : "Full-time councillor", Constituency : "Carlow-Kilkenny", Party : "Fianna Fail", Elected : "No"}), 
+(z6:Candidates  {name:"David Fitzgerald", Age : "46", Gender : "Male", Occupation : "Councillor and auctioneer", Constituency : "Carlow-Kilkenny", Party : "Fine Gael", Elected : "Yes"}), 
+(z7:Candidates  {name:"Ann Phelan", Age : "54", Gender : "Female", Occupation : "TD and Minister of State", Constituency : "Carlow-Kilkenny", Party : "Labour", Elected : "No"}), 
+(z8:Candidates  {name:"Malcolm Noonan", Age : "49", Gender : "Male", Occupation : "Full-time councillor", Constituency : "Carlow-Kilkenny", Party : "Green Party", Elected : "No"}), 
+(z9:Candidates  {name:"Patrick McKee", Age : "27", Gender : "Male", Occupation : "Councillor and apprentice solicitor", Constituency : "Carlow-Kilkenny", Party : "Renua Ireland", Elected : "No"}), 
+(z10:Candidates  {name:"Adrienne Wallace", Age : "25", Gender : "Female", Occupation : "Waitress", Constituency : "Carlow-Kilkenny", Party : "AAA-PBP", Elected : "No"}), 
+(z11:Candidates  {name:"Conor Mac Liam", Age : "55", Gender : "Male", Occupation : "Teacher", Constituency : "Carlow-Kilkenny", Party : "AAA-PBP", Elected : "No"}), 
+(z12:Candidates  {name:"Paddy J Manning", Age : "52", Gender : "Male", Occupation : "N/A", Constituency : "Carlow-Kilkenny", Party : "Independent", Elected : "No"}), 
+(z13:Candidates  {name:"Conor Mac Liam", Age : "55", Gender : "Male", Occupation : "Teacher", Constituency : "Carlow-Kilkenny", Party : "AAA-PBP", Elected : "No"}), 
+(z14:Candidates  {name:"Keith Gilligan", Age : "N/A", Gender : "Male", Occupation : "Activist", Constituency : "Carlow-Kilkenny", Party : "Independent", Elected : "No"}), 
+(z15:Candidates  {name:"Noel Walsh", Age : "50", Gender : "Male", Occupation : "Community Activist", Constituency : "Carlow-Kilkenny", Party : "Independent", Elected : "No"}), 
+ 
+
+
+// Cavan Monaghan
+(z:Candidates  {name:"Caoimhghín O Caoláin", Age : "62", Gender : "Male", Occupation : "TD", Constituency : "Cavan-Monaghan", Party : "Sinn Fein", Elected : "Yes"}), 
+(z:Candidates  {name:"Heather Humphreys", Age : "55", Gender : "Female", Occupation : "TD and Minister", Constituency : "Cavan-Monaghan", Party : "Fine Gael", Elected : "Yes"}), 
+(z:Candidates  {name:"Brendan Smith", Age : "59", Gender : "Male", Occupation : "TD", Constituency : "Cavan-Monaghan", Party : "Fianna Fail", Elected : "Yes"}), 
+(z:Candidates  {name:"Niamh Smyth", Age : "N/A", Gender : "Female", Occupation : "Councillor and education officeer", Constituency : "Cavan-Monaghan", Party : "Fianna Fail", Elected : "Yes"}), 
+(z:Candidates  {name:"Joe O'Reilly", Age : "60", Gender : "Male", Occupation : "TD", Constituency : "Cavan-Monaghan", Party : "Fine Gael", Elected : "No"}), 
+(z:Candidates  {name:"Kathryn Reilly", Age : "27", Gender : "Female", Occupation : "Senator", Constituency : "Cavan-Monaghan", Party : "Sinn Fein", Elected : "No"}), 
+(z:Candidates  {name:"Mike Durkan", Age : "37", Gender : "Male", Occupation : "Account Manager", Constituency : "Cavan-Monaghan", Party : "Fianna Fail", Elected : "No"}), 
+(z:Candidates  {name:"Mary Smyth", Age : "53", Gender : "Female", Occupation : "Counselling psychologist", Constituency : "Cavan-Monaghan", Party : "Independent", Elected : "No"}), 
+(z:Candidates  {name:"Sean Conlan", Age : "40", Gender : "Male", Occupation : "TD", Constituency : "Cavan-Monaghan", Party : "Independent", Elected : "No"}), 
+(z:Candidates  {name:"Micheál Callaghan", Age : "24", Gender : "Male", Occupation : "PhD Researcher", Constituency : "Cavan-Monaghan", Party : "Green Party", Elected : "No"}), 
+(z:Candidates  {name:"John Wilson", Age : "52", Gender : "Male", Occupation : "Retired Garda", Constituency : "Cavan-Monaghan", Party : "Independent", Elected : "No"}), 
+(z:Candidates  {name:"Michael McDermott", Age : "35", Gender : "Male", Occupation : "Technical sales representative", Constituency : "Cavan-Monaghan", Party : "Direct Democracy Ireland", Elected : "No"}), 
+(z:Candidates  {name:"Aoife O'Connell", Age : "N/A", Gender : "Female", Occupation : "N/A", Constituency : "Cavan-Monaghan", Party : "Independent", Elected : "No"}), 
+(z:Candidates  {name:"Emmet Smith", Age : "N/A", Gender : "Male", Occupation : "Retired Garda", Constituency : "Cavan-Monaghan", Party : "Independent", Elected : "No"}), 
+
+
+// Clare
+
+(z:Candidates  {name:"Timmy Dooley", Age : "46", Gender : "Male", Occupation : "TD", Constituency : "Clare", Party : "Fianna Fail", Elected : "Yes"}), 
+(z:Candidates  {name:"Michael Harty", Age : "N/A", Gender : "Male", Occupation : "Doctor(GP)", Constituency : "Clare", Party : "Independent", Elected : "Yes"}), 
+(z:Candidates  {name:"Pat Breen", Age : "58", Gender : "Male", Occupation : "TD", Constituency : "Clare", Party : "Fine Gael", Elected : "Yes"}), 
+(z:Candidates  {name:"Joe Carey", Age : "40", Gender : "Male", Occupation : "TD", Constituency : "Clare", Party : "Fine Gael", Elected : "Yes"}), 
+(z:Candidates  {name:"Michael McDonagh", Age : "51", Gender : "Male", Occupation : "Retired detective garda", Constituency : "Clare", Party : "Fianna Fail", Elected : "No"}), 
+(z:Candidates  {name:"Michael McNamara", Age : "41", Gender : "Male", Occupation : "TD", Constituency : "Clare", Party : "Labour", Elected : "No"}), 
+(z:Candidates  {name:"Noeleen Moran", Age : "N/A", Gender : "Female", Occupation : "Factory Worker", Constituency : "Clare", Party : "Sinn Fein", Elected : "No"}), 
+(z:Candidates  {name:"Ann Norton", Age : "42", Gender : "Female", Occupation : "Councillor and carer", Constituency : "Clare", Party : "Independent", Elected : "No"}), 
+(z:Candidates  {name:"Clare Colleran Molloy", Age : "51", Gender : "Female", Occupation : "Councillor and barrister", Constituency : "Clare", Party : "Fianna Fail", Elected : "No"}), 
+(z:Candidates  {name:"Fergal Smith", Age : "28", Gender : "Male", Occupation : "Professional surfer and organic grower", Constituency : "Clare", Party : "Green Party", Elected : "No"}), 
+(z:Candidates  {name:"Mary Howard", Age : "N/A", Gender : "Female", Occupation : "Full-time councillor", Constituency : "Clare", Party : "Fine Gael", Elected : "No"}), 
+(z:Candidates  {name:"Ian Lynch", Age : "37", Gender : "Male", Occupation : "Councillor and civil contractor", Constituency : "Clare", Party : "Independent", Elected : "No"}), 
+(z:Candidates  {name:"Niamh O'Brien", Age : "34", Gender : "Female", Occupation : "Activist", Constituency : "Clare", Party : "Fis Nua", Elected : "No"}), 
+(z:Candidates  {name:"Richard Cahill", Age : "49", Gender : "Male", Occupation : "Retired electrical contractor", Constituency : "Clare", Party : "Independent", Elected : "No"}), 
+(z:Candidates  {name:"André Sibo Hakizimana", Age : "N/A", Gender : "Male", Occupation : "Consultant", Constituency : "Clare", Party : "Independent", Elected : "No"}), 
+
+
+// Cork-East
+(z:Candidates  {name:"David Stanton", Age : "58", Gender : "Male", Occupation : "TD", Constituency : "Cork-East", Party : "Fine Gael", Elected : "Yes"}), 
+(z:Candidates  {name:"Seán Sherlock", Age : "42", Gender : "Male", Occupation : "TD and Minister of State", Constituency : "Cork-East", Party : "Labour", Elected : "Yes"}), 
+(z:Candidates  {name:"Kevin O'Keefe", Age : "51", Gender : "Male", Occupation : "Farmer, businessman and councillor", Constituency : "Cork-East", Party : "Fianna Fail", Elected : "Yes"}), 
+(z:Candidates  {name:"Pat Buckley", Age : "47", Gender : "Male", Occupation : "Councillor and voluntary worker", Constituency : "Cork-East", Party : "Sinn Fein", Elected : "Yes"}), 
+(z:Candidates  {name:"Noel McCarthy", Age : "53", Gender : "Male", Occupation : "Councillor and retail owner", Constituency : "Cork-East", Party : "Fine Gael", Elected : "No"}), 
+(z:Candidates  {name:"Barbara Ahern", Age : "34", Gender : "Female", Occupation : "Tax consultant", Constituency : "Cork-East", Party : "Fianna Fail", Elected : "No"}), 
+(z:Candidates  {name:"Paul Bradford", Age : "51", Gender : "Male", Occupation : "Senator", Constituency : "Cork-East", Party : "Renua Ireland", Elected : "No"}), 
+(z:Candidates  {name:"Mary Linehan-Foley", Age : "49", Gender : "Female", Occupation : "Full-time councillor", Constituency : "Cork-East", Party : "Independent", Elected : "No"}), 
+(z:Candidates  {name:"Tom Barry", Age : "46", Gender : "Male", Occupation : "TD", Constituency : "Cork-East", Party : "Fine Gael", Elected : "No"}), 
+(z:Candidates  {name:"Ciara Leonardi Roche", Age : "22", Gender : "Female", Occupation : "Councillor and retail owner", Constituency : "Cork-East", Party : "Fine Gael", Elected : "No"}), 
+(z:Candidates  {name:"Natasha Harty", Age : "68", Gender : "Female", Occupation : "Retired", Constituency : "Cork-East", Party : "Green Party", Elected : "No"}), 
+(z:Candidates  {name:"Paddy Bullman", Age : "59", Gender : "Male", Occupation : "Tattoo artist", Constituency : "Cork-East", Party : "Independent", Elected : "No"}), 
+(z:Candidates  {name:"Ross Cannon", Age : "N/A", Gender : "Male", Occupation : "Activist", Constituency : "Cork-East", Party : "Independent", Elected : "No"}), 
+
+
+//Cork North-Central
+
+(z:Candidates  {name:"Billy Kelleher", Age : "47", Gender : "Male", Occupation : "TD", Constituency : "Cork North-Central", Party : "Fianna Fail", Elected : "Yes"}), 
+(z:Candidates  {name:"Jonathan O'Brien", Age : "43", Gender : "Male", Occupation : "TD", Constituency : "Cork North-Central", Party : "Sinn Fein", Elected : "Yes"}), 
+(z:Candidates  {name:"Mick Barry", Age : "52", Gender : "Male", Occupation : "Full-time councillor", Constituency : "Cork North-Central", Party : "AAA-PBP", Elected : "Yes"}), 
+(z:Candidates  {name:"Dara Murphy", Age : "45", Gender : "Male", Occupation : "TD and Minister of State", Constituency : "Cork North-Central", Party : "Fine Gael", Elected : "Yes"}), 
+(z:Candidates  {name:"Kathleen Lynch", Age : "62", Gender : "Female", Occupation : "TD and Minister of State", Constituency : "Cork North-Central", Party : "Labour", Elected : "No"}), 
+(z:Candidates  {name:"Julie O'Leary", Age : "25", Gender : "Female", Occupation : "Barrister", Constituency : "Cork North-Central", Party : "Fine Gael", Elected : "No"}), 
+(z:Candidates  {name:"Thomas Gould", Age : "N/A", Gender : "Male", Occupation : "Full-time councillor", Constituency : "Cork North-Central", Party : "Sinn Fein", Elected : "No"}), 
+(z:Candidates  {name:"Oliver Moran", Age : "37", Gender : "Male", Occupation : "Software engineer", Constituency : "Cork North-Central", Party : "Green Party", Elected : "No"}), 
+(z:Candidates  {name:"Ted Tynan", Age : "73", Gender : "Male", Occupation : "Full-time councillor", Constituency : "Cork North-Central", Party : "Workers' Party", Elected : "No"}), 
+(z:Candidates  {name:"Paddy O'Leary", Age : "N/A", Gender : "Male", Occupation : "Small-business owner", Constituency : "Cork North-Central", Party : "Sinn Fein", Elected : "No"}), 
+(z:Candidates  {name:"Ger Keohane", Age : "47", Gender : "Male", Occupation : "Full-time councillor", Constituency : "Cork North-Central", Party : "Independent", Elected : "No"}), 
+(z:Candidates  {name:"Thomas Kiely", Age : "32", Gender : "Male", Occupation : "Sheet metal fabricator", Constituency : "Cork North-Central", Party : "Independent", Elected : "No"}), 
+(z:Candidates  {name:"Mick Murphy", Age : "N/A", Gender : "Male", Occupation : "Engineer", Constituency : "Cork North-Central", Party : "Independent", Elected : "No"}), 
+(z:Candidates  {name:"Peter O'Loughlin", Age : "N/A", Gender : "Male", Occupation : "N/A", Constituency : "Cork North-Central", Party : "Independent", Elected : "No"}), 
+
+
+
+//
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       
