@@ -1672,3 +1672,37 @@ Storage files: (filename : modification date - size)
 2016-04-09 11:59:02.709+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 44778579ms.
 2016-04-09 12:11:51.127+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 511ms.
 2016-04-09 12:27:56.863+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 318ms.
+2016-04-09 13:05:30.532+0000 INFO  [o.n.c.i.ServerExecutionEngine] Discarded stale query from the query cache: CYPHER 2.3 MATCH (n:Candidates) RETURN n LIMIT 25
+2016-04-09 13:05:30.571+0000 INFO  [o.n.c.i.CypherCompiler] Discarded stale query from the query cache: Query(None,SingleQuery(List(Match(false,Pattern(List(EveryPath(NodePattern(Some(Identifier(n)),List(),None,false)))),List(),Some(Where(HasLabels(Identifier(n),List(LabelName(Candidates)))))), Return(false,ReturnItems(false,List(AliasedReturnItem(Identifier(n),Identifier(n)))),None,None,Some(Limit(SignedDecimalIntegerLiteral(25)))))))
+2016-04-09 13:05:34.282+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [17]:  Starting check pointing...
+2016-04-09 13:05:34.290+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [17]:  Starting store flush...
+2016-04-09 13:05:34.364+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 17 to [C:\Users\Andy\Documents\Neo4j\project-template-master\constituencies.graphdb\neostore.counts.db.a], from [C:\Users\Andy\Documents\Neo4j\project-template-master\constituencies.graphdb\neostore.counts.db.b].
+2016-04-09 13:05:34.405+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 17 to [C:\Users\Andy\Documents\Neo4j\project-template-master\constituencies.graphdb\neostore.counts.db.a], from [C:\Users\Andy\Documents\Neo4j\project-template-master\constituencies.graphdb\neostore.counts.db.b].
+2016-04-09 13:05:34.447+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [17]:  Store flush completed
+2016-04-09 13:05:34.460+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [17]:  Starting appending check point entry into the tx log...
+2016-04-09 13:05:34.466+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [17]:  Appending check point entry into the tx log completed
+2016-04-09 13:05:34.475+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [17]:  Check pointing completed
+2016-04-09 13:05:34.503+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2016-04-09 13:05:34.517+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2016-04-09 13:07:55.370+0000 INFO  [o.n.c.i.ServerExecutionEngine] Discarded stale query from the query cache: CYPHER 2.3 MATCH (n:Candidates) RETURN n LIMIT 2
+2016-04-09 13:07:55.381+0000 INFO  [o.n.c.i.CypherCompiler] Discarded stale query from the query cache: Query(None,SingleQuery(List(Match(false,Pattern(List(EveryPath(NodePattern(Some(Identifier(n)),List(),None,false)))),List(),Some(Where(HasLabels(Identifier(n),List(LabelName(Candidates)))))), Return(false,ReturnItems(false,List(AliasedReturnItem(Identifier(n),Identifier(n)))),None,None,Some(Limit(SignedDecimalIntegerLiteral(2)))))))
+2016-04-09 13:29:44.589+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1089271ms.
+2016-04-09 13:29:45.310+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 242ms.
+2016-04-09 13:29:45.977+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 297ms.
+2016-04-09 13:29:53.816+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 748ms.
+2016-04-09 13:30:00.660+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 351ms.
+2016-04-09 14:30:58.629+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 2620736ms.
+2016-04-09 14:31:00.071+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 396ms.
+2016-04-09 14:31:03.063+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 262ms.
+2016-04-09 14:31:07.856+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 258ms.
+2016-04-09 14:31:22.789+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 205ms.
+2016-04-09 15:13:56.477+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [20]:  Starting check pointing...
+2016-04-09 15:13:56.488+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [20]:  Starting store flush...
+2016-04-09 15:13:56.522+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 20 to [C:\Users\Andy\Documents\Neo4j\project-template-master\constituencies.graphdb\neostore.counts.db.b], from [C:\Users\Andy\Documents\Neo4j\project-template-master\constituencies.graphdb\neostore.counts.db.a].
+2016-04-09 15:13:56.536+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 20 to [C:\Users\Andy\Documents\Neo4j\project-template-master\constituencies.graphdb\neostore.counts.db.b], from [C:\Users\Andy\Documents\Neo4j\project-template-master\constituencies.graphdb\neostore.counts.db.a].
+2016-04-09 15:13:56.553+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [20]:  Store flush completed
+2016-04-09 15:13:56.559+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [20]:  Starting appending check point entry into the tx log...
+2016-04-09 15:13:56.566+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [20]:  Appending check point entry into the tx log completed
+2016-04-09 15:13:56.571+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [20]:  Check pointing completed
+2016-04-09 15:13:56.577+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2016-04-09 15:13:56.582+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
