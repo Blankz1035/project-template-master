@@ -93,10 +93,83 @@ CREATE (z:Candidates  {name:"John Paul Phelan", Age: "37", Gender: "Male", Occup
 
 
 
-//
+// Cork North-West
+(z:Candidates  {name:"Michael Creed", Age : "52", Gender : "Male", Occupation : "TD", Constituency : "Cork North-West", Party : "Fine Gael", Elected : "Yes"}), 
+(z:Candidates  {name:"Aindrias Moynihan", Age : "N/A", Gender : "Male", Occupation : "Full-time councillor", Constituency : "Cork North-West", Party : "Fianna Fail", Elected : "Yes"}), 
+(z:Candidates  {name:"Michael Moynihan", Age : "47", Gender : "Male", Occupation : "TD", Constituency : "Cork North-West", Party : "Fianna Fail", Elected : "Yes"}), 
+(z:Candidates  {name:"John Paul O'Shea", Age : "32", Gender : "Male", Occupation : "Full-time councillor", Constituency : "Cork North-West", Party : "Independent", Elected : "No"}), 
+(z:Candidates  {name:"Aine Collins", Age : "46", Gender : "Female", Occupation : "TD", Constituency : "Cork North-West", Party : "Fine Gael", Elected : "No"}), 
+(z:Candidates  {name:"Nigel Dennehy", Age : "27", Gender : "Male", Occupation : "Store Manager", Constituency : "Cork North-West", Party : "Sinn Fein", Elected : "No"}), 
+(z:Candidates  {name:"Diarmuid O'Flynn", Age : "62", Gender : "Male", Occupation : "Parliamentary assistant and journalist", Constituency : "Cork North-West", Party : "Independent", Elected : "No"}), 
+(z:Candidates  {name:"Jason Fitzgerald", Age : "42", Gender : "Male", Occupation : "Farmer and AI technician", Constituency : "Cork North-West", Party : "Renua Ireland", Elected : "No"}), 
+(z:Candidates  {name:"Steven O'Riordan", Age : "29", Gender : "Male", Occupation : "Film-maker", Constituency : "Cork North-West", Party : "Independent", Elected : "No"}), 
+(z:Candidates  {name:"Cormac Manning", Age : "23", Gender : "Male", Occupation : "Student", Constituency : "Cork North-West", Party : "Green Party", Elected : "No"}), 
 
 
+//Cork South Central
+(z:Candidates  {name:"Donnchadh O Laoghaire", Age : "26", Gender : "Male", Occupation : "Full-time councillor", Constituency : "Cork South-Central", Party : "Sinn Fein", Elected : "Yes"}), 
+(z:Candidates  {name:"Simon Coveney", Age : "43", Gender : "Male", Occupation : "TD and Minister", Constituency : "Cork South-Central", Party : "Fine Gael", Elected : "Yes"}), 
+(z:Candidates  {name:"Mick Finn", Age : "45", Gender : "Male", Occupation : "Councillor and SCP worker", Constituency : "Cork South-Central", Party : "Independent", Elected : "No"}), 
+(z:Candidates  {name:"Lorna Bogue", Age : "24", Gender : "Male", Occupation : "Tech support", Constituency : "Cork South-Central", Party : "Green Party", Elected : "No"}), 
+(z:Candidates  {name:"Ciarán Lynch", Age : "51", Gender : "Male", Occupation : "TD", Constituency : "Cork South-Central", Party : "Labour", Elected : "No"}), 
+(z:Candidates  {name:"Fiona Ryan", Age : "26", Gender : "Female", Occupation : " Financial services worker", Constituency : "Cork South-Central", Party : "AAA-PBP", Elected : "No"}), 
+(z:Candidates  {name:"Diarmaid O Cadhla", Age : "55", Gender : "Male", Occupation : "Business systems consultant", Constituency : "Cork South-Central", Party : "Independent", Elected : "No"}), 
+(z:Candidates  {name:"Ciaran Kenneally", Age : "N/A", Gender : "Male", Occupation : "Voluntary sector worker", Constituency : "Cork South-Central", Party : "Renua Ireland", Elected : "No"}), 
+(z:Candidates  {name:"Jim O'Connell", Age : "56", Gender : "Male", Occupation : "Community activist/political organiser", Constituency : "Cork South-Central", Party : "AAA-PBP", Elected : "No"}), 
+(z:Candidates  {name:"Joe Harris", Age : "58", Gender : "Male", Occupation : "Full-time councillor", Constituency : "Cork South-Central", Party : "Independent", Elected : "No"}), 
+(z:Candidates  {name:"Elizabeth Hourihane", Age : "49", Gender : "Female", Occupation : "Activist", Constituency : "Cork South-Central", Party : "Independent", Elected : "No"}), 
+(z:Candidates  {name:"Michael Mohally", Age : "N/A", Gender : "Male", Occupation : "Voluntary community worker", Constituency : "Cork South-Central", Party : "Independent", Elected : "No"}), 
 
+
+//Cork South-West
+
+(z:Candidates  {name:"Margaret Murphy-O'Mahony", Age : "48", Gender : "Female", Occupation : "Full-time councillor", Constituency : "Cork South-West", Party : "Fianna Fail", Elected : "Yes"}), 
+(z:Candidates  {name:"Michael Collins", Age : "N/A", Gender : "Male", Occupation : "Full-time councillor", Constituency : "Cork South-West", Party : "Independent", Elected : "Yes"}), 
+(z:Candidates  {name:"Jim Daly", Age : "42", Gender : "Male", Occupation : "TD", Constituency : "Cork South-West", Party : "Fine Gael", Elected : "Yes"}), 
+(z:Candidates  {name:"Noel Harrington", Age : "44", Gender : "Male", Occupation : "TD", Constituency : "Cork South-West", Party : "Fine Gael", Elected : "No"}), 
+(z:Candidates  {name:"Alan Coleman", Age : "58", Gender : "Male", Occupation : "Councillor and farmer", Constituency : "Cork South-West", Party : "Independent", Elected : "No"}), 
+(z:Candidates  {name:"Rachel McCarthy", Age : "N/A", Gender : "Female", Occupation : "Full-time councillor", Constituency : "Cork South-West", Party : "Sinn Fein", Elected : "No"}), 
+(z:Candidates  {name:"Michael McCarthy", Age : "38", Gender : "Male", Occupation : "TD", Constituency : "Cork South-West", Party : "Labour", Elected : "No"}), 
+
+
+// Donegal
+
+(z:Candidates  {name:"Pearse Doherty", Age : "38", Gender : "Male", Occupation : "TD", Constituency : "Donegal", Party : "Sinn Fein", Elected : "Yes"}), 
+(z:Candidates  {name:"Pat 'The Cope' Gallagher", Age : "67", Gender : "Male", Occupation : "Public representative", Constituency : "Donegal", Party : "Fianna Fail", Elected : "Yes"}), 
+(z:Candidates  {name:"Joe McHugh", Age : "44", Gender : "Male", Occupation : "TD and Minister of State", Constituency : "Donegal", Party : "Fine Gael", Elected : "Yes"}), 
+(z:Candidates  {name:"Thomas Pringle", Age : "48", Gender : "Male", Occupation : "TD", Constituency : "Donegal", Party : "Independent", Elected : "Yes"}), 
+(z:Candidates  {name:"Padraig Mac Lochlainn", Age : "42", Gender : "Male", Occupation : "TD", Constituency : "Donegal", Party : "Sinn Fein", Elected : "No"}), 
+(z:Candidates  {name:"Tim Jackson", Age : "26", Gender : "Male", Occupation : "Activist", Constituency : "Donegal", Party : "Independent", Elected : "No"}), 
+(z:Candidates  {name:"Dessie Shiels", Age : "39", Gender : "Male", Occupation : " Councillor and solicitor", Constituency : "Donegal", Party : "Independent", Elected : "No"}), 
+(z:Candidates  {name:"Gary Doherty", Age : "33", Gender : "Male", Occupation : "Full-time councillor", Constituency : "Donegal", Party : "Sinn Fein", Elected : "No"}), 
+(z:Candidates  {name:"Paddy Harte", Age : "60", Gender : "Male", Occupation : "Business advisor", Constituency : "Donegal", Party : "Fine Gael", Elected : "No"}), 
+(z:Candidates  {name:"Niamh Kennedy", Age : "46", Gender : "Female", Occupation : "Company director and councillor", Constituency : "Donegal", Party : "Independent", Elected : "No"}), 
+(z:Candidates  {name:"Frank McBrearty", Age : "46", Gender : "Male", Occupation : "Full-time councillor", Constituency : "Donegal", Party : "Independent", Elected : "No"}), 
+(z:Candidates  {name:"Ian McGarvey", Age : "85", Gender : "Male", Occupation : "Full-time councillor", Constituency : "Donegal", Party : "Independent", Elected : "No"}), 
+(z:Candidates  {name:"Michael Mooney", Age : "N/A", Gender : "Male", Occupation : "Construction worker", Constituency : "Donegal", Party : "Independent", Elected : "No"}), 
+(z:Candidates  {name:"Paula Flanagan", Age : "47", Gender : "Female", Occupation : "Community development worker", Constituency : "Donegal", Party : "Green Party", Elected : "No"}), 
+
+
+//Dublin Bay North
+
+(z:Candidates  {name:"Richard Bruton", Age : "62", Gender : "Male", Occupation : "TD and Minister", Constituency : "Dublin Bay North", Party : "Fine Gael;", Elected : "Yes"}), 
+(z:Candidates  {name:"Sean Haughey", Age : "53", Gender : "Male", Occupation : "Full-time councillor", Constituency : "Dublin Bay North", Party : "Fianna Fail;", Elected : "Yes"}), 
+(z:Candidates  {name:"Tommy Broughan", Age : "68", Gender : "Male", Occupation : "TD", Constituency : "Dublin Bay North", Party : "Independent 4 Change;", Elected : "Yes"}), 
+(z:Candidates  {name:"Denise Mitchell", Age : "45", Gender : "Female", Occupation : "Full-time councillor", Constituency : "Dublin Bay North", Party : "Sinn Fein;", Elected : "Yes"}), 
+(z:Candidates  {name:"Finian McGrath", Age : "62", Gender : "Male", Occupation : "TD", Constituency : "Dublin Bay North", Party : "Independent", Elected : "Yes"}), 
+(z:Candidates  {name:"Aodhán O Ríordáin", Age : "39", Gender : "Male", Occupation : "TD and Minister of State", Constituency : "Dublin Bay North", Party : "Labour", Elected : "No"}), 
+(z:Candidates  {name:"John Lyons", Age : "36", Gender : "Male", Occupation : "Full-time councillor", Constituency : "Dublin Bay North", Party : "AAA-PBP", Elected : "No"}), 
+(z:Candidates  {name:"Averil Power", Age : "37", Gender : "Female", Occupation : "Senator", Constituency : "Dublin Bay North", Party : "Independent", Elected : "No"}), 
+(z:Candidates  {name:"Cian O'Callaghan", Age : "36", Gender : "Male", Occupation : "Full-time councillor", Constituency : "Dublin Bay North", Party : "Social Democrats", Elected : "No"}), 
+(z:Candidates  {name:"Deirdre Heney", Age : "", Gender : "Male", Occupation : "Councillor and barrister", Constituency : "Dublin Bay North", Party : "Fianna Fail", Elected : "No"}), 
+(z:Candidates  {name: "Micheal Mac Donncha", Age : "51", Gender : "Male", Occupation : "Full-time councillor", Constituency : "Dublin Bay North", Party : "Sinn Fein", Elected : "No"}), 
+(z:Candidates  {name: "Terence Flanagan", Age : "40", Gender : "Male", Occupation : "TD", Constituency : "Dublin Bay North", Party : "Renua Ireland", Elected : "No"}), 
+(z:Candidates  {name:"Naoise O Muiri", Age : "", Gender : "Male", Occupation : "Councillor and engineer", Constituency : "Dublin Bay North", Party : "Fine Gael", Elected : "No"}), 
+(z:Candidates  {name:"Michael O'Brien", Age : "40", Gender : "Male", Occupation : "Full-time councillor", Constituency : "Dublin Bay North", Party : "AAA-PBP", Elected : "No"}), 
+(z:Candidates  {name:"Stephanie Regan", Age : "57", Gender : "Female", Occupation : "Clinical psychotherapist", Constituency : "Dublin Bay North", Party : "Fine Gael", Elected : "No"}), 
+(z:Candidates  {name:"Damien O'Neill", Age : "", Gender : "Male", Occupation : "N/A", Constituency : "Dublin Bay North", Party : "Independent", Elected : "No"}), 
+(z:Candidates  {name:"Donna Cooney", Age : "47", Gender : "Female", Occupation : "Entrepreneur", Constituency : "Dublin Bay North", Party : "Green Party", Elected : "No"}), 
+(z:Candidates  {name:"Jimmy Guerin", Age : "56", Gender : "Male", Occupation : "Councillor and printer", Constituency : "Dublin Bay North", Party : "Independent", Elected : "No"}), 
 
 
 
