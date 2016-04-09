@@ -30,7 +30,6 @@ CREATE (n:Constituency  {name:"Carlow-Kilkenny ", Province: "Leinster", Populati
 (n9:Constituency  {name:"Dublin - Central", Province: "Leinster", Population: "89,030", Seats: "3"}),
 (n10:Constituency  {name:"Dublin Mid - West", Province: "Leinster", Population: "110,427", Seats: "4"}),
 (n11:Constituency  {name:"Dublin Bay North", Province: "Leinster", Population: "146,512", Seats: "5"}),
-(n12:Constituency  {name:"Dublin North - East", Province: "Leinster", Population: "145,659", Seats: "3"}),
 (n13:Constituency  {name:"Dublin Bay South", Province: "Leinster", Population: "116,396", Seats: "4"}),
 (n14:Constituency  {name:"Dublin Fingal", Province: "Leinster", Population: "141,162", Seats: "5"}),
 (n15:Constituency  {name:"Dublin Rathdown", Province: "Leinster", Population: "87,470", Seats: "3"}),
