@@ -3,6 +3,8 @@ Querys
 MATCH (n:Candidate {Constituency: "Wicklow"}) where n.Age >= "50" and n.Gender="Female"  and n.Elected = "Yes" return n
 
 
-MATCH (n:Constituency) where n.Province = "Leinster" and n.Gender="Female" and n.Seats<"4" return n
+MATCH (n:Constituency) where n.Province = "Leinster" and n.Seats<"4" return n
 
-MATCH (n:Candidate)-[Has_Con]-> (z:Constituency) where n.Gender= "Female" and n.Elected = "Yes" return z
+MATCH (n:Candidate)-[Has_Con]-> (z:Constituency) where n.Gender= "Female" and n.Elected = "Yes" and z.Seats = "3" return z
+
+MATCH (n:Candidate)-[Has_Con]-> (z:Constituency) where z.Province = "Leinster" and z.Seats<"4" and n.Gender = "Male" and n.Age > "50" and n.Elected = "Yes" return n
